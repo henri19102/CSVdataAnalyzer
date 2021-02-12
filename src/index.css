@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: max-content;
+  margin: 1px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: right;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+input,
+button {
+  margin: 1%;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.tableStyle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.myStyle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
