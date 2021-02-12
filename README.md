@@ -1,3 +1,14 @@
+# With CSVdataAnalyzer you can:
+
+- Import csv file (Nasdaq historic stock data), from your local computer.
+- Select date ranges.
+- Calculate answers for three different questions:
+  1) How many days was the longest bullish (upward) trend within a given date range?
+  2) Which dates within a given date range had a) the highest trading volume and b) the most
+     significant stock price change within a day?
+  3) Within a given date range, which dates had the best opening price compared to 5 days
+     simple moving average (SMA 5)?
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
